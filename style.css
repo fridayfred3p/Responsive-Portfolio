@@ -13,7 +13,7 @@ body {
 }
 .container {
     position: relative;
-    max-width: auto; /
+    max-width: auto; 
     margin: 0 auto; /* Center it */
   }
   
@@ -28,7 +28,7 @@ body {
   }
 #message {
     height: 200px;
+    text-align: left;
+    text-anchor: 1px;
 }
-.btn {
 
-}
