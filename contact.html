@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
+<!-- Meta tags-->  
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<!-- Referencing proper bootstrap -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 <link rel="stylesheet" href="style.css">
 
-  
+ <!--Creating Nav Bar with name, image, and proper links --> 
 <nav class="navbar fixed-top navbar-light bg-primary">
     <a class="navbar-brand" href="index.html">Timothy Peterson</a>
     <div class ="justify-content-end">
@@ -19,26 +21,35 @@
 </head>
 <body>
 
-
-
-
-
-
-
+<!--Created New container for contact form-->
 <div class="container">
+    <!--Header-->
     <h2>Contact Me</h2>
+    <!--Added Line break for spacing flow-->
     <hr>
+    <!--Contact form for user infromation-->
     <form>
-      <div class="form-group">
+      <div class="form-group row">
+        <!--First form line for user to enter name-->
         <label for="name">Name:</label>
-        <input type="name" class="form-control" id="name" placeholder="Enter name">
+        <input type="name" class="form-control col-auto" id="name" placeholder="Enter name">
       </div>
-      <div class="form-group">
+      <div class="form-group row">
+        <!--form line for user to enter phone number-->
+        <label for="phone number">Phone Number</label>
+        <input type="phone number" class="form-control col-auto" id="phone number" placeholder="Enter phone number">
+      </div>
+      <div class="form-group row">
+        <label for="email address">Email Address</label>
+        <input type="email address" class="form-control col-auto" id="email address" placeholder="Enter email address">
+      </div>
+      <div class="form-group row">
+        <!--First form line for user to enter message-->
         <label for="message">Message:</label>
-        <input type="message" class="form-control input-lg" id="message" placeholder="Enter message">
+        <input type="message" class="form-control input-lg col-auto" id="message" placeholder="Enter message">
       </div>
       
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="submit" class="btn btn-primary" data-toggle="button">Submit</button>
     </form>
 
 
