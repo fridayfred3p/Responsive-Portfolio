@@ -1,0 +1,34 @@
+body {
+    padding-top: 65px;
+}
+
+
+#selfie{
+    height: 75%;
+    width: 50%;
+}
+ .image {
+    height: 95%;
+    width: 95%;
+}
+.container {
+    position: relative;
+    max-width: auto; /
+    margin: 0 auto; /* Center it */
+  }
+  
+  .container .content {
+    position: absolute; /* Position the background text */
+    bottom: 10%; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 90%; /* Full width */
+    padding: 10px; /* Some padding */
+  }
+#message {
+    height: 200px;
+}
+.btn {
+
+}
